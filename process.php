@@ -12,8 +12,8 @@ session_start();
 <?php
 
 
-$name = $_POST['name'];
-$_SESSION['name'] = $name;
+$name = $_POST['fname'];
+$_SESSION['fname'] = $name;
 $totalCost = 0;
     echo "<p>Thank you, $name, for your order! <br> Order Summary:</p>";
 
